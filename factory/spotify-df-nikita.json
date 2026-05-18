@@ -1,0 +1,15 @@
+{
+	"name": "spotify-df-nikita",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f5896d47-34a7-4386-bee8-7de398f37012",
+		"tenantId": "98b70add-f134-4f68-b83d-1ce30c15c494"
+	}
+}
