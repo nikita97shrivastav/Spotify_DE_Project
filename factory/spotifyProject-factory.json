@@ -1,0 +1,15 @@
+{
+	"name": "spotifyProject-factory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bf54ee40-882e-4e19-b35f-87dd1c9a0e61",
+		"tenantId": "98b70add-f134-4f68-b83d-1ce30c15c494"
+	}
+}
