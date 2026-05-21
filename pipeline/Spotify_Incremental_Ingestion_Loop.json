@@ -335,7 +335,9 @@
 						"activity": "ForEachTable",
 						"dependencyConditions": [
 							"Skipped",
-							"Failed"
+							"Failed",
+							"Succeeded",
+							"Completed"
 						]
 					}
 				],
