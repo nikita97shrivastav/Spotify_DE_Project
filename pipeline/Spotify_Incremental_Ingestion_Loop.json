@@ -351,7 +351,7 @@
 					"method": "POST",
 					"url": "https://prod-24.canadacentral.logic.azure.com:443/workflows/6c46d6a9042d4803a559190dcdcf89dd/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=xPRO_P95ZvXd4icTkp2dbjP09JRLjVAyUk27Fxeenrc",
 					"body": {
-						"value": "{\n    \t\"Pipeline Name\" : \"@{pipeline().Pipeline}\",\n        \"Pipeline Run Id\" : \"@{pipeline().RunId}\"\n}",
+						"value": "{\n    \t\"pipeline_name\" : \"@{pipeline().Pipeline}\",\n        \"pipeline_runId\" : \"@{pipeline().RunId}\"\n}",
 						"type": "Expression"
 					}
 				}
